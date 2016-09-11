@@ -1,5 +1,5 @@
 {
-    "name": "2amigos/yii2-tinymce-widget",
+    "name": "modernkernel/yii2-tinymce",
     "description": "TinyMCE widget for Yii2.",
     "type": "yii2-extension",
     "keywords": [
@@ -11,20 +11,15 @@
         "widget",
         "tinymce"
     ],
-    "homepage": "http://yiiwheels.com/extension/tinymce-widget",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "2amigOS! Consulting Group",
-            "email": "hola@2amigos.us",
-            "homepage": "http://2amigos.us",
+            "name": "Harry Tang",
+            "email": "harry@modernkernel.com",
+            "homepage": "https://modernkernel.com",
             "role": "Developer"
         }
     ],
-    "support": {
-        "issues": "https://github.com/2amigos/yii2-tinymce-widget/issues",
-        "source": "https://github.com/2amigos/yii2-tinymce-widget"
-    },
     "require": {
         "yiisoft/yii2": "~2.0.0",
         "tinymce/tinymce": ">=4"
@@ -34,15 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "dosamigos\\tinymce\\": "src"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        },
-        "asset-installer-paths": {
-            "bower-asset-library": "vendor/bower"
+            "modernkernel\\tinymce\\": "src"
         }
     }
 }
