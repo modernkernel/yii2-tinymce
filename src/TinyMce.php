@@ -32,6 +32,7 @@ class TinyMce extends InputWidget
      */
     public $clientOptions = [
         'menubar'=> false,
+        'content_css'=>'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
         'image_title'=>'true',
         'image_caption'=>false,
         'image_advtab'=>false,
