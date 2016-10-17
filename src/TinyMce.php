@@ -47,7 +47,7 @@ class TinyMce extends InputWidget
             "searchreplace visualblocks code fullscreen",
             "insertdatetime media table contextmenu paste image"
         ],
-        'toolbar' => "undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | removeformat code"
+        'toolbar' => "undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image media | removeformat code"
     ];
     /**
      * @var bool whether to set the on change event for the editor. This is required to be able to validate data.
