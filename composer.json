@@ -1,5 +1,5 @@
 {
-    "name": "modernkernel/yii2-tinymce",
+    "name": "powerkernel/yii2-tinymce",
     "description": "TinyMCE widget for Yii2.",
     "type": "yii2-extension",
     "keywords": [
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "modernkernel\\tinymce\\": "src"
+            "powerkernel\\tinymce\\": "src"
         }
     }
 }
