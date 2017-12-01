@@ -8,12 +8,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require modernkernel/yii2-tinymce "*"
+composer require powerkernel/yii2-tinymce "*"
 ```
 or add
 
 ```
-"modernkernel/yii2-tinymce": "*"
+"powerkernel/yii2-tinymce": "*"
 ```
 
 to the require section of your application's `composer.json` file.
@@ -22,7 +22,7 @@ to the require section of your application's `composer.json` file.
 
 
 ```
-use modernkernel\tinymce\TinyMce;
+use powerkernel\tinymce\TinyMce;
 
 <?= $form->field($model, 'text')->widget(TinyMce::className(), []);?>
 ```

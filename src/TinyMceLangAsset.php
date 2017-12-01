@@ -4,19 +4,19 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace modernkernel\tinymce;
+namespace powerkernel\tinymce;
 
 use yii\web\AssetBundle;
 
 /**
  * Class TinyMceLangAsset
- * @package modernkernel\tinymce
+ * @package powerkernel\tinymce
  */
 class TinyMceLangAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/modernkernel/yii2-tinymce/src/assets';
+    public $sourcePath = '@vendor/powerkernel/yii2-tinymce/src/assets';
 
     public $depends = [
-        'modernkernel\tinymce\TinyMceAsset'
+        'powerkernel\tinymce\TinyMceAsset'
     ];
 }

@@ -4,10 +4,9 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace modernkernel\tinymce;
+namespace powerkernel\tinymce;
 
 use Yii;
-use yii\bootstrap\BootstrapAsset;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\widgets\InputWidget;

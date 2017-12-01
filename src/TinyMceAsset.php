@@ -4,13 +4,13 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace modernkernel\tinymce;
+namespace powerkernel\tinymce;
 
 use yii\web\AssetBundle;
 
 /**
  * Class TinyMceAsset
- * @package modernkernel\tinymce
+ * @package powerkernel\tinymce
  */
 class TinyMceAsset extends AssetBundle
 {
