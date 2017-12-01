@@ -120,7 +120,7 @@ class TinyMce extends InputWidget
     protected function getTinyMCELang($lang)
     {
         $lang = str_ireplace('-', '_', $lang);
-        $path = Yii::getAlias('@vendor') . '/modernkernel/yii2-tinymce/src/assets/langs';
+        $path = Yii::getAlias('@vendor') . '/powerkernel/yii2-tinymce/src/assets/langs';
         $files = scandir($path);
         $availableLang = [];
         foreach ($files as $file) {
