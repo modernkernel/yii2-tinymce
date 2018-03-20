@@ -24,12 +24,12 @@ to the require section of your application's `composer.json` file.
 ```
 use powerkernel\tinymce\TinyMce;
 
-<?= $form->field($model, 'text')->widget(TinyMce::className(), []);?>
+<?= $form->field($model, 'text')->widget(TinyMce::class, []);?>
 ```
 
 ## Custom Options
 ```
-<?= $form->field($model, 'text')->widget(TinyMce::className(), [
+<?= $form->field($model, 'text')->widget(TinyMce::class, [
     'options' => ['rows' => 6],
     'clientOptions' => [
         'height'=>320,
