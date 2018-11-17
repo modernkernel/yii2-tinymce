@@ -14,7 +14,8 @@ use yii\web\AssetBundle;
  */
 class TinyMceLangAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/powerkernel/yii2-tinymce/src/assets';
+    //public $sourcePath = '@vendor/powerkernel/yii2-tinymce/src/assets';
+    public $baseUrl='//powerkernel.github.io/yii2-tinymce/assets';
 
     public $depends = [
         'powerkernel\tinymce\TinyMceAsset'

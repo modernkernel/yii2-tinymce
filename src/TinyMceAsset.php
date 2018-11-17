@@ -18,10 +18,13 @@ class TinyMceAsset extends AssetBundle
     public $depends = [
         'yii\bootstrap\BootstrapAsset'
     ];
+    public $js = [
+        'tinymce.min.js'
+    ];
 
-    public function init()
-    {
-        parent::init();
-        $this->js[] = YII_DEBUG ? 'tinymce.js' : 'tinymce.min.js';
-    }
+//    public function init()
+//    {
+//        parent::init();
+//        $this->js[] = YII_DEBUG ? 'tinymce.js' : 'tinymce.min.js';
+//    }
 }
